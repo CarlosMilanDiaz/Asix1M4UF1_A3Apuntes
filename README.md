@@ -43,3 +43,8 @@ Este texto esta en _**negrita y cursiva**_
 [Esto es un enlace](https://joan23.fje.edu "Enlace a la web del cole")
 
 ![Esto es una imagen](https://github.com/CarlosMilanDiaz/Asix1M4UF1_A3Apuntes/blob/main/descarga%20(2).png "Titulo opcional de la imagen")
+|Primera Col.|Segunda Col.|3 Col|
+|---------------|:------------:|------------:|
+|Col 2 es|Centrada|35€|
+|Estilo Cebra|Gris|Blanco|
+|Clase|ASIX|M4|
