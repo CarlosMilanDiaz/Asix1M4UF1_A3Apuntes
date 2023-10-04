@@ -48,3 +48,7 @@ Este texto esta en _**negrita y cursiva**_
 |Col 2 es|Centrada|35€|
 |Estilo Cebra|Gris|Blanco|
 |Clase|ASIX|M4|
+
+-[ ] Opcion A
+-[X] Opcion B
+-[ ] Opcion C
