@@ -50,5 +50,7 @@ Este texto esta en _**negrita y cursiva**_
 |Clase|ASIX|M4|
 
 -[ ] Opcion A
+
 -[X] Opcion B
+
 -[ ] Opcion C
