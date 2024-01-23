@@ -54,3 +54,39 @@ Este texto esta en _**negrita y cursiva**_
 -[X] Opcion B
 
 -[ ] Opcion C
+
+Segundo Capitulo:HTML
+
+En un lenguaje de marcas empieza con una etiqueta que se escribe entre <> y para marcar o decir que acaba se escribe la misma etiqueta pero con una barra delante </>.
+
+La sintaxi basica es,  basicamente es , etiqueta atributo y información del atributo.
+Aqui definimos el tipo de pagina que hacemos para decirselo al navegador <!DOCTYPE html>
+
+Aqui definimos el idioma <html lang="en">
+
+Justo aqui empieza el encabezado de datos  <head>
+
+En la  linea indica el set de caracteres. <meta charset="UTF-8">
+Esto es para el ancho y demas de la pagina <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+En la linea de codigo es donde se pone el titulo que saldrá arriba en la pestaña de la pagina1 <title>Document</title>
+y aqui acaba el encabezado como siempre acaban las etiquetas de una pagina con la barra"/" </head> justo aqui empieza el body, que es el cuerpo de la pagina  <body> estas etiquestas són las de un parrafo, el cual se abre sin / y se cierra con ella escrita. <p> </p>
+
+El order list es una lista ordenada en el que abre con ol, y acaba con /ol, la cual cada elemento interno de la lista es un <li> y como dice su nombre esta ordenada con un numero al principio.
+
+    <li>como este por ejemplo que abre con li, y como todas las etiquetas se cierran con /.</li>
+    <li>aqui hay otro elemento de la lista</li>
+    <li>y aqui el tercer elemento</li>    
+</ol>y ya aqui cerramos el order list```
+La parte de ol se puede hacer como Unorder list(ul) y en vez de ser numeros te lo ponen con puntos.
+Por si se quiere hacer una lista dentro de otra lista seria lo mismo, haciendo un ol, con la otra lista añadida identada y aqui tenienes un ejemplo:
+1
+    1.1.Nivell1
+    1.2.Nivell2
+La etiqueta <br>: sirve para dar un salto o espaciado
+La etiqueta <a>: sirve para crear un enlace a otras páginas web, archivos o ubicaciones dentro de la misma página. El atributo <href> se utiliza para especificar la URL de destino del enlace.El atributo <alt> sirve para canviar el nombre cuando te pones encima.
+Aqui un ejemplo
+<a href="google"alt="Esto es un enlace ">Texto de ejemplo</a>
+<hr>sirve para poner una linea horizontal para hacer un cambio de seccion<hr>
+Esta etiqueta es una cita, (es una frase de alguien ajeno) <blockquote></blockquote>
+para mostrar una imagen es , la etiqueta img, con la ruta de donde se saca la imagen, <img src="">
