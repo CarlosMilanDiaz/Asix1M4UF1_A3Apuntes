@@ -55,7 +55,7 @@ Este texto esta en _**negrita y cursiva**_
 
 -[ ] Opcion C
 
-Segundo Capitulo:HTML
+######Segundo Capitulo:HTML
 
 En un lenguaje de marcas empieza con una etiqueta que se escribe entre <> y para marcar o decir que acaba se escribe la misma etiqueta pero con una barra delante </>.
 
@@ -88,5 +88,74 @@ La etiqueta <a>: sirve para crear un enlace a otras páginas web, archivos o ubi
 Aqui un ejemplo
 <a href="google"alt="Esto es un enlace ">Texto de ejemplo</a>
 <hr>sirve para poner una linea horizontal para hacer un cambio de seccion<hr>
-Esta etiqueta es una cita, (es una frase de alguien ajeno) <blockquote></blockquote>
-para mostrar una imagen es , la etiqueta img, con la ruta de donde se saca la imagen, <img src="https://github.com/CarlosMilanDiaz/Asix1M4UF1_A3Apuntes/blob/main/nationalgeographic_1468962.jpg">
+Esta etiqueta es una cita, (esto es una cita) <blockquote></blockquote>
+Para mostrar una imagen es , la etiqueta img, con la ruta de donde se saca la imagen, 
+<img src="https://github.com/CarlosMilanDiaz/Asix1M4UF1_A3Apuntes/blob/main/nationalgeographic_1468962.jpg">
+Para usar un icono de una web como por ejemplo fontawesome hay que linkear en el head el <script src="https://kit.fontawesome.com/06d159bd36.js" crossorigin="anonymous"></script> Escribimos este link/script que nos ha dado la pagina para poder enlazar nuestra pagina para enlaza y linkear cosas de esta, como poer ejemplo podriamos poner para poner un icono o una fuente lo siguiente:<i class="fa-solid fa-dog">codigo enlazado desde fontawesome</i>
+Para poner una foto se pone <img src="(ubicacion de la foto)" alt="Imgen de planeta"> para ir a alguna parte dentro de la propia pagina añadir un id a la parte qu queramos ir a ver(el destino) añadimos por ejemplo un titulo que queremos que sirva como enlace para ir a ver el destino(origen)
+    Si queremos poner una tabla ponemos los siguiente:
+ <thead>
+        <tr>
+            <th>123</th>
+            <th>234</th>
+            <th>345</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>qwe</th>
+            <th>wer</th>
+            <th>ert</th>
+        </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+</table>```
+
+Table es la etiqueta de la tabla general, tr son las filas en la que escribirmos th por cada columna que quieras poner con loa datoa a mostrar, si quieres puedes poner un thead o tfoot para hacer un encabezado o un pie de tabla, sino si solo se quiere hacer una tabla sin nada mas, se hace en el tbody.
+</body>
+</html>
+
+######Tercer Capitulo:CSS
+
+3 formas de insertar css
+
+1. Insertar en la propia etiqueta
+2. Añadir en el head de la pagina el link de enlce
+3. Archivo externo
+
+Puntos/cosas idividuales: Si solo se quiere poner algo exclusivamente en una parte se puede hacer individualmente.
+
+Las hojas css/ archivo externo, sirve para todas las paginas de todo el sitio web.
+
+
+en una tabla, se pone el atributo style en la etiqueta, se compone por declaraciones:valor
+ejemplo: style="text-align: center;color: red;"
+esto hace que la tabla o la columna por ejemplo se ponga la letra de color rojo, y la alineación del texto en el centro.
+
+Los colores es pueden poner con la combinacion en exadecimal y en rgb, que seria el siguiente formato(255,255,255), se pone como maximo de cada valor en 255, el minimo es 0, y para hacer los colores se combinan.
+ejemplo, si queremos poner en rgb el azul puro se pone (0,0,255), o si queremos el rosa seria (255,0,255).
+
+
+para modificar un unico elemento como por ejemplo una fila, pero que no se me cambien todas las filas creamos en la fila un atributo que se llama "id" que es un identifiacador unico, y modificar ese id, por ejemplo si el id="PrimeraFila" , para nombrarla y editarla se escribe  #PrimeraFila{y aqui dentro los cambios que se quieran hacer}.
+
+en caso que se quieran cambiar un grupo de partes de la pagina, se escribe en ved de "id", se escribe "class" que para hacer la referencia en vez de poner # como en id, se pone un "." delante del nombre de la clase.
+class--> .clasetextoazul
+id-->   #identificadorazul
+
+
+para seleccionar a todo el documento se hace una edidción total con el simbolo "*".
+un ejemplo podia ser:
+```*{
+    color: blue;
+}```
+
+
+
+Hijos y padre para dar formato:
+si solo quiero que afecte a hijos que son por ejemplo strong de un li.
+se podria en el css tal que así:
+li > strong{
+    y lo que queramos editar.
+}
