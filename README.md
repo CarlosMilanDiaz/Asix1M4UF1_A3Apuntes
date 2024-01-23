@@ -117,7 +117,7 @@ Table es la etiqueta de la tabla general, tr son las filas en la que escribirmos
 </body>
 </html>
 
-######Tercer Capitulo:CSS
+#####Tercer Capitulo:CSS
 
 3 formas de insertar css
 
