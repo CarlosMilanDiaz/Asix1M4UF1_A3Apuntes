@@ -89,4 +89,4 @@ Aqui un ejemplo
 <a href="google"alt="Esto es un enlace ">Texto de ejemplo</a>
 <hr>sirve para poner una linea horizontal para hacer un cambio de seccion<hr>
 Esta etiqueta es una cita, (es una frase de alguien ajeno) <blockquote></blockquote>
-para mostrar una imagen es , la etiqueta img, con la ruta de donde se saca la imagen, <img src="">
+para mostrar una imagen es , la etiqueta img, con la ruta de donde se saca la imagen, <img src="https://github.com/CarlosMilanDiaz/Asix1M4UF1_A3Apuntes/blob/main/nationalgeographic_1468962.jpg">
