@@ -122,15 +122,15 @@ Table es la etiqueta de la tabla general, tr son las filas en la que escribirmos
 3 formas de insertar css
 
 1. Insertar en la propia etiqueta
-2. Añadir en el head de la pagina el link de enlce
+2. Añadir en el head de la pagina el link de enlace
 3. Archivo externo
 
-Puntos/cosas idividuales: Si solo se quiere poner algo exclusivamente en una parte se puede hacer individualmente.
+Si solo se quiere poner algo exclusivamente en una parte se puede hacer individualmente.
 
 Las hojas css/ archivo externo, sirve para todas las paginas de todo el sitio web.
 
 
-en una tabla, se pone el atributo style en la etiqueta, se compone por declaraciones:valor
+En una tabla, se pone el atributo style en la etiqueta, se compone por declaraciones:valor
 ejemplo: style="text-align: center;color: red;"
 esto hace que la tabla o la columna por ejemplo se ponga la letra de color rojo, y la alineación del texto en el centro.
 
@@ -138,7 +138,7 @@ Los colores es pueden poner con la combinacion en exadecimal y en rgb, que seria
 ejemplo, si queremos poner en rgb el azul puro se pone (0,0,255), o si queremos el rosa seria (255,0,255).
 
 
-para modificar un unico elemento como por ejemplo una fila, pero que no se me cambien todas las filas creamos en la fila un atributo que se llama "id" que es un identifiacador unico, y modificar ese id, por ejemplo si el id="PrimeraFila" , para nombrarla y editarla se escribe  #PrimeraFila{y aqui dentro los cambios que se quieran hacer}.
+Para modificar un unico elemento como por ejemplo una fila, pero que no se me cambien todas las filas creamos en la fila un atributo que se llama "id" que es un identifiacador unico, y modificar ese id, por ejemplo si el id="PrimeraFila" , para nombrarla y editarla se escribe  #PrimeraFila{y aqui dentro los cambios que se quieran hacer}.
 
 en caso que se quieran cambiar un grupo de partes de la pagina, se escribe en ved de "id", se escribe "class" que para hacer la referencia en vez de poner # como en id, se pone un "." delante del nombre de la clase.
 class--> .clasetextoazul
