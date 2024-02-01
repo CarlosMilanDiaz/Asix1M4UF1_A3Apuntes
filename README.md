@@ -92,7 +92,7 @@ Esta etiqueta es una cita, (esto es una cita) <blockquote></blockquote>
 Para mostrar una imagen es , la etiqueta img, con la ruta de donde se saca la imagen, 
 <img src="https://github.com/CarlosMilanDiaz/Asix1M4UF1_A3Apuntes/blob/main/nationalgeographic_1468962.jpg">
 Para usar un icono de una web como por ejemplo fontawesome hay que linkear en el head el <script src="https://kit.fontawesome.com/06d159bd36.js" crossorigin="anonymous"></script> Escribimos este link/script que nos ha dado la pagina para poder enlazar nuestra pagina para enlaza y linkear cosas de esta, como poer ejemplo podriamos poner para poner un icono o una fuente lo siguiente:<i class="fa-solid fa-dog">codigo enlazado desde fontawesome</i>
-Para poner una foto se pone <img src="(ubicacion de la foto)" alt="Imgen de planeta"> para ir a alguna parte dentro de la propia pagina añadir un id a la parte qu queramos ir a ver(el destino) añadimos por ejemplo un titulo que queremos que sirva como enlace para ir a ver el destino(origen)
+Para poner una foto se pone <img src="(ubicacion de la foto)" alt="Imagen de planeta"> para ir a alguna parte dentro de la propia pagina añadir un id a la parte qu queramos ir a ver(el destino) añadimos por ejemplo un titulo que queremos que sirva como enlace para ir a ver el destino(origen)
     Si queremos poner una tabla ponemos los siguiente:
  <thead>
         <tr>
@@ -178,3 +178,10 @@ h2 h1{
     color:red;
     text-align:center;
 }
+```
+######Cuarto Capitulo : Responsive
+
+El diseño web responsive o adaptativo es una técnica que busca la correcta visualización de una misma página en distintos dispositivos, desde ordenadores de escritorio hasta tablets y móviles
+Redimensionamiento y colocación de elementos: El diseño responsive ajusta los elementos de una página para adaptarse al ancho de cada dispositivo, permitiendo una mejor experiencia de usuario. Los layouts y las imágenes son fluidos, y se utiliza código media queries de CSS para lograrlo.
+Asegurate de que todos los elementos HTML tengan la box-sizing propiedad establecida en border-box.Sirve para asegura que el relleno y el borde estén incluidos en el ancho y alto total de los elementos.
+
