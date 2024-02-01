@@ -140,22 +140,41 @@ ejemplo, si queremos poner en rgb el azul puro se pone (0,0,255), o si queremos 
 
 Para modificar un unico elemento como por ejemplo una fila, pero que no se me cambien todas las filas creamos en la fila un atributo que se llama "id" que es un identifiacador unico, y modificar ese id, por ejemplo si el id="PrimeraFila" , para nombrarla y editarla se escribe  #PrimeraFila{y aqui dentro los cambios que se quieran hacer}.
 
-en caso que se quieran cambiar un grupo de partes de la pagina, se escribe en ved de "id", se escribe "class" que para hacer la referencia en vez de poner # como en id, se pone un "." delante del nombre de la clase.
+En caso que se quieran cambiar un grupo de partes de la pagina, se escribe en ved de "id", se escribe "class" que para hacer la referencia en vez de poner # como en id, se pone un "." delante del nombre de la clase.
 class--> .clasetextoazul
 id-->   #identificadorazul
+Aui pongo un ejemplo de como seria:
+```
+.clasetextoazul{
+    color:blue;
+}
+#identificadorazul{
+    color:blue;
+}
+```
 
-
-para seleccionar a todo el documento se hace una edidción total con el simbolo "*".
-un ejemplo podia ser:
-```*{
+Para seleccionar a todo el documento se hace una edición total con el simbolo "*".
+Por ejemplo:
+```
+*{
     color: blue;
-}```
+}
+```
 
 
 
 Hijos y padre para dar formato:
-si solo quiero que afecte a hijos que son por ejemplo strong de un li.
-se podria en el css tal que así:
+Si solo quiero que afecte a hijos que son por ejemplo strong de un li.
+Se pondria en el css asi:
+```
 li > strong{
     y lo que queramos editar.
+}
+```
+Tambien si queremos afectar a dos clases
+Por ejemplo:
+```
+h2 h1{
+    color:red;
+    text-align:center;
 }
